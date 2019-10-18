@@ -1,0 +1,664 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB3CE732233D1DBA00CFE7C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3CE731233D1DBA00CFE7C3 /* AppDelegate.swift */; };
+		CB3CE734233D1DBA00CFE7C3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3CE733233D1DBA00CFE7C3 /* SceneDelegate.swift */; };
+		CB3CE736233D1DBA00CFE7C3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3CE735233D1DBA00CFE7C3 /* ContentView.swift */; };
+		CB3CE738233D1DBC00CFE7C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB3CE737233D1DBC00CFE7C3 /* Assets.xcassets */; };
+		CB3CE73B233D1DBC00CFE7C3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB3CE73A233D1DBC00CFE7C3 /* Preview Assets.xcassets */; };
+		CB3CE73E233D1DBC00CFE7C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB3CE73C233D1DBC00CFE7C3 /* LaunchScreen.storyboard */; };
+		CB3CE749233D1DBD00CFE7C3 /* Panda_Finder_2_0Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3CE748233D1DBD00CFE7C3 /* Panda_Finder_2_0Tests.swift */; };
+		CB3CE754233D1DBD00CFE7C3 /* Panda_Finder_2_0UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3CE753233D1DBD00CFE7C3 /* Panda_Finder_2_0UITests.swift */; };
+		F0D8308238E106B62173C97B /* Pods_Panda_Finder_2_0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FEAD2FD3CE0DFFCB4F8C0FB /* Pods_Panda_Finder_2_0.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB3CE745233D1DBD00CFE7C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB3CE726233D1DBA00CFE7C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB3CE72D233D1DBA00CFE7C3;
+			remoteInfo = "Panda Finder 2.0";
+		};
+		CB3CE750233D1DBD00CFE7C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB3CE726233D1DBA00CFE7C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB3CE72D233D1DBA00CFE7C3;
+			remoteInfo = "Panda Finder 2.0";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7FEAD2FD3CE0DFFCB4F8C0FB /* Pods_Panda_Finder_2_0.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Panda_Finder_2_0.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C536EE0F57DF9D5E572A82B0 /* Pods-Panda Finder 2.0.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Panda Finder 2.0.release.xcconfig"; path = "Target Support Files/Pods-Panda Finder 2.0/Pods-Panda Finder 2.0.release.xcconfig"; sourceTree = "<group>"; };
+		CB3CE72E233D1DBA00CFE7C3 /* Panda Finder 2.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Panda Finder 2.0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB3CE731233D1DBA00CFE7C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CB3CE733233D1DBA00CFE7C3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CB3CE735233D1DBA00CFE7C3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CB3CE737233D1DBC00CFE7C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB3CE73A233D1DBC00CFE7C3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CB3CE73D233D1DBC00CFE7C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CB3CE73F233D1DBC00CFE7C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB3CE744233D1DBD00CFE7C3 /* Panda Finder 2.0Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Panda Finder 2.0Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB3CE748233D1DBD00CFE7C3 /* Panda_Finder_2_0Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Panda_Finder_2_0Tests.swift; sourceTree = "<group>"; };
+		CB3CE74A233D1DBD00CFE7C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB3CE74F233D1DBD00CFE7C3 /* Panda Finder 2.0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Panda Finder 2.0UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB3CE753233D1DBD00CFE7C3 /* Panda_Finder_2_0UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Panda_Finder_2_0UITests.swift; sourceTree = "<group>"; };
+		CB3CE755233D1DBD00CFE7C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC563BB58B62A1DC066F39B7 /* Pods-Panda Finder 2.0.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Panda Finder 2.0.debug.xcconfig"; path = "Target Support Files/Pods-Panda Finder 2.0/Pods-Panda Finder 2.0.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB3CE72B233D1DBA00CFE7C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0D8308238E106B62173C97B /* Pods_Panda_Finder_2_0.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB3CE741233D1DBD00CFE7C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB3CE74C233D1DBD00CFE7C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5BC0E3335E0C86A009AD3CCA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7FEAD2FD3CE0DFFCB4F8C0FB /* Pods_Panda_Finder_2_0.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9B4D8ED4DBA85717CCD55907 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DC563BB58B62A1DC066F39B7 /* Pods-Panda Finder 2.0.debug.xcconfig */,
+				C536EE0F57DF9D5E572A82B0 /* Pods-Panda Finder 2.0.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CB3CE725233D1DBA00CFE7C3 = {
+			isa = PBXGroup;
+			children = (
+				CB3CE730233D1DBA00CFE7C3 /* Panda Finder 2.0 */,
+				CB3CE747233D1DBD00CFE7C3 /* Panda Finder 2.0Tests */,
+				CB3CE752233D1DBD00CFE7C3 /* Panda Finder 2.0UITests */,
+				CB3CE72F233D1DBA00CFE7C3 /* Products */,
+				9B4D8ED4DBA85717CCD55907 /* Pods */,
+				5BC0E3335E0C86A009AD3CCA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CB3CE72F233D1DBA00CFE7C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB3CE72E233D1DBA00CFE7C3 /* Panda Finder 2.0.app */,
+				CB3CE744233D1DBD00CFE7C3 /* Panda Finder 2.0Tests.xctest */,
+				CB3CE74F233D1DBD00CFE7C3 /* Panda Finder 2.0UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB3CE730233D1DBA00CFE7C3 /* Panda Finder 2.0 */ = {
+			isa = PBXGroup;
+			children = (
+				CB3CE731233D1DBA00CFE7C3 /* AppDelegate.swift */,
+				CB3CE733233D1DBA00CFE7C3 /* SceneDelegate.swift */,
+				CB3CE735233D1DBA00CFE7C3 /* ContentView.swift */,
+				CB3CE737233D1DBC00CFE7C3 /* Assets.xcassets */,
+				CB3CE73C233D1DBC00CFE7C3 /* LaunchScreen.storyboard */,
+				CB3CE73F233D1DBC00CFE7C3 /* Info.plist */,
+				CB3CE739233D1DBC00CFE7C3 /* Preview Content */,
+			);
+			path = "Panda Finder 2.0";
+			sourceTree = "<group>";
+		};
+		CB3CE739233D1DBC00CFE7C3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CB3CE73A233D1DBC00CFE7C3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CB3CE747233D1DBD00CFE7C3 /* Panda Finder 2.0Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CB3CE748233D1DBD00CFE7C3 /* Panda_Finder_2_0Tests.swift */,
+				CB3CE74A233D1DBD00CFE7C3 /* Info.plist */,
+			);
+			path = "Panda Finder 2.0Tests";
+			sourceTree = "<group>";
+		};
+		CB3CE752233D1DBD00CFE7C3 /* Panda Finder 2.0UITests */ = {
+			isa = PBXGroup;
+			children = (
+				CB3CE753233D1DBD00CFE7C3 /* Panda_Finder_2_0UITests.swift */,
+				CB3CE755233D1DBD00CFE7C3 /* Info.plist */,
+			);
+			path = "Panda Finder 2.0UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB3CE72D233D1DBA00CFE7C3 /* Panda Finder 2.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB3CE758233D1DBD00CFE7C3 /* Build configuration list for PBXNativeTarget "Panda Finder 2.0" */;
+			buildPhases = (
+				F0C3EC3363B2D563E1BBB52A /* [CP] Check Pods Manifest.lock */,
+				CB3CE72A233D1DBA00CFE7C3 /* Sources */,
+				CB3CE72B233D1DBA00CFE7C3 /* Frameworks */,
+				CB3CE72C233D1DBA00CFE7C3 /* Resources */,
+				A2070794EB30DA1153D1CB5A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Panda Finder 2.0";
+			productName = "Panda Finder 2.0";
+			productReference = CB3CE72E233D1DBA00CFE7C3 /* Panda Finder 2.0.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CB3CE743233D1DBD00CFE7C3 /* Panda Finder 2.0Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB3CE75B233D1DBD00CFE7C3 /* Build configuration list for PBXNativeTarget "Panda Finder 2.0Tests" */;
+			buildPhases = (
+				CB3CE740233D1DBD00CFE7C3 /* Sources */,
+				CB3CE741233D1DBD00CFE7C3 /* Frameworks */,
+				CB3CE742233D1DBD00CFE7C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB3CE746233D1DBD00CFE7C3 /* PBXTargetDependency */,
+			);
+			name = "Panda Finder 2.0Tests";
+			productName = "Panda Finder 2.0Tests";
+			productReference = CB3CE744233D1DBD00CFE7C3 /* Panda Finder 2.0Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CB3CE74E233D1DBD00CFE7C3 /* Panda Finder 2.0UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB3CE75E233D1DBD00CFE7C3 /* Build configuration list for PBXNativeTarget "Panda Finder 2.0UITests" */;
+			buildPhases = (
+				CB3CE74B233D1DBD00CFE7C3 /* Sources */,
+				CB3CE74C233D1DBD00CFE7C3 /* Frameworks */,
+				CB3CE74D233D1DBD00CFE7C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB3CE751233D1DBD00CFE7C3 /* PBXTargetDependency */,
+			);
+			name = "Panda Finder 2.0UITests";
+			productName = "Panda Finder 2.0UITests";
+			productReference = CB3CE74F233D1DBD00CFE7C3 /* Panda Finder 2.0UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB3CE726233D1DBA00CFE7C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = Christine;
+				TargetAttributes = {
+					CB3CE72D233D1DBA00CFE7C3 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					CB3CE743233D1DBD00CFE7C3 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = CB3CE72D233D1DBA00CFE7C3;
+					};
+					CB3CE74E233D1DBD00CFE7C3 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = CB3CE72D233D1DBA00CFE7C3;
+					};
+				};
+			};
+			buildConfigurationList = CB3CE729233D1DBA00CFE7C3 /* Build configuration list for PBXProject "Panda Finder 2.0" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB3CE725233D1DBA00CFE7C3;
+			productRefGroup = CB3CE72F233D1DBA00CFE7C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB3CE72D233D1DBA00CFE7C3 /* Panda Finder 2.0 */,
+				CB3CE743233D1DBD00CFE7C3 /* Panda Finder 2.0Tests */,
+				CB3CE74E233D1DBD00CFE7C3 /* Panda Finder 2.0UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB3CE72C233D1DBA00CFE7C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB3CE73E233D1DBC00CFE7C3 /* LaunchScreen.storyboard in Resources */,
+				CB3CE73B233D1DBC00CFE7C3 /* Preview Assets.xcassets in Resources */,
+				CB3CE738233D1DBC00CFE7C3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB3CE742233D1DBD00CFE7C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB3CE74D233D1DBD00CFE7C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A2070794EB30DA1153D1CB5A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Panda Finder 2.0/Pods-Panda Finder 2.0-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Panda Finder 2.0/Pods-Panda Finder 2.0-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Panda Finder 2.0/Pods-Panda Finder 2.0-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0C3EC3363B2D563E1BBB52A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Panda Finder 2.0-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB3CE72A233D1DBA00CFE7C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB3CE732233D1DBA00CFE7C3 /* AppDelegate.swift in Sources */,
+				CB3CE734233D1DBA00CFE7C3 /* SceneDelegate.swift in Sources */,
+				CB3CE736233D1DBA00CFE7C3 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB3CE740233D1DBD00CFE7C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB3CE749233D1DBD00CFE7C3 /* Panda_Finder_2_0Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB3CE74B233D1DBD00CFE7C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB3CE754233D1DBD00CFE7C3 /* Panda_Finder_2_0UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB3CE746233D1DBD00CFE7C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB3CE72D233D1DBA00CFE7C3 /* Panda Finder 2.0 */;
+			targetProxy = CB3CE745233D1DBD00CFE7C3 /* PBXContainerItemProxy */;
+		};
+		CB3CE751233D1DBD00CFE7C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB3CE72D233D1DBA00CFE7C3 /* Panda Finder 2.0 */;
+			targetProxy = CB3CE750233D1DBD00CFE7C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CB3CE73C233D1DBC00CFE7C3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB3CE73D233D1DBC00CFE7C3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB3CE756233D1DBD00CFE7C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CB3CE757233D1DBD00CFE7C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB3CE759233D1DBD00CFE7C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC563BB58B62A1DC066F39B7 /* Pods-Panda Finder 2.0.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Panda Finder 2.0/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Panda Finder 2.0/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "christine.Panda-Finder-2-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CB3CE75A233D1DBD00CFE7C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C536EE0F57DF9D5E572A82B0 /* Pods-Panda Finder 2.0.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Panda Finder 2.0/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Panda Finder 2.0/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "christine.Panda-Finder-2-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CB3CE75C233D1DBD00CFE7C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Panda Finder 2.0Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "christine.Panda-Finder-2-0Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Panda Finder 2.0.app/Panda Finder 2.0";
+			};
+			name = Debug;
+		};
+		CB3CE75D233D1DBD00CFE7C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Panda Finder 2.0Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "christine.Panda-Finder-2-0Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Panda Finder 2.0.app/Panda Finder 2.0";
+			};
+			name = Release;
+		};
+		CB3CE75F233D1DBD00CFE7C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Panda Finder 2.0UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "christine.Panda-Finder-2-0UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Panda Finder 2.0";
+			};
+			name = Debug;
+		};
+		CB3CE760233D1DBD00CFE7C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Panda Finder 2.0UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "christine.Panda-Finder-2-0UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Panda Finder 2.0";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB3CE729233D1DBA00CFE7C3 /* Build configuration list for PBXProject "Panda Finder 2.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB3CE756233D1DBD00CFE7C3 /* Debug */,
+				CB3CE757233D1DBD00CFE7C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB3CE758233D1DBD00CFE7C3 /* Build configuration list for PBXNativeTarget "Panda Finder 2.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB3CE759233D1DBD00CFE7C3 /* Debug */,
+				CB3CE75A233D1DBD00CFE7C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB3CE75B233D1DBD00CFE7C3 /* Build configuration list for PBXNativeTarget "Panda Finder 2.0Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB3CE75C233D1DBD00CFE7C3 /* Debug */,
+				CB3CE75D233D1DBD00CFE7C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB3CE75E233D1DBD00CFE7C3 /* Build configuration list for PBXNativeTarget "Panda Finder 2.0UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB3CE75F233D1DBD00CFE7C3 /* Debug */,
+				CB3CE760233D1DBD00CFE7C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB3CE726233D1DBA00CFE7C3 /* Project object */;
+}
